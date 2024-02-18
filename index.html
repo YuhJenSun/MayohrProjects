@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Puzzle Game</title>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="puzzle.css" />
+    <script src="puzzle.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">
+        <img src="logo.png" />
+      </div>
+
+      <div class="box" id="box">
+        <div class="leftContainer">
+          <button class="btn" id="start">Start</button>
+          <button class="btn" id="reset">Reset</button>
+          <p class="turnText">Turns: <span id="turns">0</span></p>
+        </div>
+        <div class="rightContainer">
+          <div class="board" id="puzzleContainer">
+            <img class="puzzleImage" src="osmAquaman.jpeg" />
+          </div>
+          <div class="board">
+            <img class="puzzleImage" id="fixedImg" src="osmAquaman.jpeg" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
